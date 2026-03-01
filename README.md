@@ -1,5 +1,11 @@
-# Algorithms in Java (CS305) - Spring 2026
-- Task 1 (15 Feb)
+Algorithms in Java (CS305) - Spring 2026
+
+This repository contains course tasks and quizzes for Algorithms in Java (CS305).
+
+---
+
+Task 1 (15 Feb)
+
 /**
  * Write a Java method that reads words from a file using Scanner
  * and checks whether each word contains only distinct (non-repeating) characters.
@@ -17,7 +23,10 @@
  * Output: true (because each word individually contains only distinct (non-repeating) letters)
 */
 
-- Quiz 1 (22 Feb)
+---
+
+Quiz 1 (22 Feb)
+
 /**
  * Write a Java method that takes an int array as a parameter
  * and returns a new array containing only the elements that are greater than 5.
@@ -29,8 +38,11 @@
  * Output: [9,10,8,6,9]
  */
 
- - Task 2 (1 Mar)
- /**
+---
+
+Task 2 (1 Mar)
+
+/**
  * Write a Java method that takes an int array as a parameter
  * and returns the sum of its elements using recursion with two pointers
  * Example 1:
@@ -40,3 +52,5 @@
  * Input file: [1,2,3,4,5]
  * Output: 15
  */
+
+---
