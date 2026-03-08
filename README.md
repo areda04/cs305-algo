@@ -2,6 +2,23 @@
 
 This repository contains course tasks and quizzes for Algorithms in Java (CS305).
 
+🗂️ Repository Structure
+```
+cs305-algo/
+├── src/
+│   └── Quiz_1/
+│       └── Quiz1.java
+│   └── Quiz_2/
+│       └── Q1.png
+│       └── Q2.png
+│   └── Task_1/
+│       └── Task1.java
+│   └── Task_2/
+│       └── Task2.java
+│   ...
+...
+```
+
 ---
 
 # Task 1 (15 Feb)
@@ -46,7 +63,9 @@ This repository contains course tasks and quizzes for Algorithms in Java (CS305)
 ---
 
 # Quiz 2 (8 Mar) 
-1) Prove by mathematical induction that recurrence equation T_n = T_{n-1} + 5 ,  n > 1 and T_1 = 2 has a candidate solution T_n = 5n - 3
-   ![Quiz 2 - First Question](src/Quiz_2/Q1.png)
-2) Solve by Characteristic Equation this recurrence equation T_n - 5 T_n-1 + T_n-2 = 5^n where t_0 = 0 and t_1 = 1
-   ![Quiz 2 - First Question](src/Quiz_2/Q2.png)
+1) Quiz 2 - First Question<br><br>
+![Quiz 2 - First Question](src/Quiz_2/Q1.png)<br><br>
+2) Quiz 2 - Second Question<br><br>
+![Quiz 2 - Second Question](src/Quiz_2/Q2.png)
+
+---
