@@ -15,7 +15,9 @@ cs305-algo/
 │       └── Task1.java
 │   └── Task_2/
 │       └── Task2.java
-│   ...
+│   └── Task_3/
+│       └── Task3.java
+│   └── ...
 ...
 ```
 
@@ -68,4 +70,21 @@ cs305-algo/
 2) Quiz 2 - Second Question<br><br>
 ![Quiz 2 - Second Question](src/Quiz_2/Q2.png)
 
+---
+
+# Task 3 (15 Mar)
+
+ * Write a Java method that takes a sorted int array (may contain duplicates) and a target value, and returns the first and last position of the target in int array using binary search and (divide & conquer) technique.
+ ## Example 1:
+ * Input: [1, 2, 3], target = 3
+ * Output: [2, 2]
+ * Explanation: Target 3 appears only at index 2
+ ## Example 2:
+ * Input: [1, 2, 3, 3, 4], target = 3
+ * Output: [2, 3]
+ * Explanation: Target 3 appears at indices 2 and 3
+ ## Example 3:
+ * Input: [1, 2, 3, 4, 5], target = 6
+ * Output: [-1, -1]
+ * Explanation: Target 6 not found in array
 ---
