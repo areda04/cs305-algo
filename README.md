@@ -11,6 +11,9 @@ cs305-algo/
 │   └── Quiz_2/
 │       └── Q1.png
 │       └── Q2.png
+│   └── Quiz_3/
+│       └── Quiz_Q1.png
+│       └── Quiz_Q2.java
 │   └── Task_1/
 │       └── Task1.java
 │   └── Task_2/
@@ -87,4 +90,23 @@ cs305-algo/
  * Input: [1, 2, 3, 4, 5], target = 6
  * Output: [-1, -1]
  * Explanation: Target 6 not found in array
+---
+
+# Quiz 3 (5 Apr)
+
+1) Quiz 3 - First Question<br><br>
+![Quiz 3 - First Question](src/Quiz_3/Quiz3_Q1.png)<br><br>
+
+2) Quiz 2 - Second Question<br>
+* Using the Divide and Conquer approach, write a method that checks if an array is sorted in ascending order or not.
+## Example 1:
+* Input: [1, 2, 3, 4]
+* Output: true
+## Example 2:
+* Input: [1, 2, 3, 3, 4]
+* Output: true
+## Example 3:
+* Input: [1, 2, 5, 3]
+* Output: false
+* Explanation: not sorted due to 5 > 3 NOT 5 <= 3
 ---
