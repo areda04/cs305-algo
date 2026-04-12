@@ -12,8 +12,8 @@ cs305-algo/
 │       └── Q1.png
 │       └── Q2.png
 │   └── Quiz_3/
-│       └── Quiz_Q1.png
-│       └── Quiz_Q2.java
+│       └── Quiz3_Q1.png
+│       └── Quiz3_Q2.java
 │   └── Task_1/
 │       └── Task1.java
 │   └── Task_2/
@@ -97,7 +97,7 @@ cs305-algo/
 1) Quiz 3 - First Question<br><br>
 ![Quiz 3 - First Question](src/Quiz_3/Quiz3_Q1.png)<br><br>
 
-2) Quiz 2 - Second Question<br>
+2) Quiz 3 - Second Question<br>
 * Using the Divide and Conquer approach, write a method that checks if an array is sorted in ascending order or not.
 ## Example 1:
 * Input: [1, 2, 3, 4]
