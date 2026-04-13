@@ -20,6 +20,8 @@ cs305-algo/
 │       └── Task2.java
 │   └── Task_3/
 │       └── Task3.java
+│   └── Task_4/
+│       └── Task4.java
 │   └── ...
 ...
 ```
@@ -94,10 +96,10 @@ cs305-algo/
 
 # Quiz 3 (5 Apr)
 
-1) Quiz 3 - First Question<br><br>
+1) Quiz 3 - First Question<br>
 ![Quiz 3 - First Question](src/Quiz_3/Quiz3_Q1.png)<br><br>
 
-2) Quiz 3 - Second Question<br>
+2) Quiz 3 - Second Question
 * Using the Divide and Conquer approach, write a method that checks if an array is sorted in ascending order or not.
 ## Example 1:
 * Input: [1, 2, 3, 4]
@@ -109,4 +111,42 @@ cs305-algo/
 * Input: [1, 2, 5, 3]
 * Output: false
 * Explanation: not sorted due to 5 > 3 NOT 5 <= 3
+---
+
+# Task 4 (12 Apr)
+
+* Using Floyd's algorithm, update it to handle a graph that contains cycles such that it computes the minimum cycle weight in the graph (assuming all edge weights are positive).
+## Example 1:
+* Input: `n = 4` and
+```
+W (Adjacency Matrix) =
+            { 0 ,INF, 7 ,INF}
+            { 3 , 0 , 1 ,INF}
+            {INF, 2 , 0 ,INF}
+            { 3 , 6 ,INF, 0 }
+```
+* Output: 3
+* Explanation: cycle weights are `[12, 3, 3, INF]` & Min Cycle Weight are 3.
+## Example 2:
+* Input: `n = 5` and
+```
+W (Adjacency Matrix) =
+            { 0 ,INF, 7 ,INF, 8 }
+            { 8 , 0 , 1 ,INF, 5 }
+            {INF, 8 , 0 ,INF, 3 }
+            {INF, 6 ,INF, 0 ,INF}
+            { 6 ,INF, 8 ,INF, 0 }
+```
+* Output: 3
+* Explanation: cycle weights are `[14, 9, 9, INF, 11]` & Min Cycle Weight are 3.
+## Example 3:
+* Input: `n = 3` and
+```
+W (Adjacency Matrix) =
+            { 0 ,INF, 7 }
+            {INF, 0 ,INF}
+            {INF, 8 , 0 }
+```
+* Output: -1
+* Explanation: `[INF, INF, INF]` & no cycles appeared, so -1 = NOT FOUND.
 ---
