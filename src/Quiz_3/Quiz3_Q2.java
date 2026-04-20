@@ -1,6 +1,6 @@
 package Quiz_3;
 /*
- * CS305 - Task 3 - Spring 2026
+ * CS305 - Quiz 3 - Q2 - Spring 2026
  * using the Divide and Conquer approach,
  * write a method that checks if an array is sorted  in ascending order or not.
  * Example 1:

@@ -14,6 +14,10 @@ cs305-algo/
 │   └── Quiz_3/
 │       └── Quiz3_Q1.png
 │       └── Quiz3_Q2.java
+│   └── Quiz_4/
+│       └── Quiz4_Q1.java
+│       └── Quiz4_Q2.java
+│       └── Quiz4_Q2.png
 │   └── Task_1/
 │       └── Task1.java
 │   └── Task_2/
@@ -137,8 +141,8 @@ W (Adjacency Matrix) =
             {INF, 6 ,INF, 0 ,INF}
             { 6 ,INF, 8 ,INF, 0 }
 ```
-* Output: 3
-* Explanation: cycle weights are `[14, 9, 9, INF, 11]` & Min Cycle Weight are 3.
+* Output: 9
+* Explanation: cycle weights are `[14, 9, 9, INF, 11]` & Min Cycle Weight are 9.
 ## Example 3:
 * Input: `n = 3` and
 ```
@@ -148,5 +152,22 @@ W (Adjacency Matrix) =
             {INF, 8 , 0 }
 ```
 * Output: -1
-* Explanation: `[INF, INF, INF]` & no cycles appeared, so -1 = NOT FOUND.
+* Explanation: cycle weights are `[INF, INF, INF]` & no cycles appeared, so -1 = NOT FOUND.
+---
+
+# Quiz 4 (19 Apr)
+
+1) Quiz 4 - First Question
+* using the Divide and Conquer approach & Dynamic Programming approach, Implement the factorial method in both approaches, then compare the time complexity between them (Don't prove anything)
+## Example 1:
+* Input: 5
+* Output: 120
+## Example 2:
+* Input: 6
+* Output: 720
+## Note: The whole solution is in the java class `Quiz4_Q1.java`
+<br>2) Quiz 4 - Second Question
+- Note: we have a java class `Quiz4_Q2.java` for checking answer if you want
+   ![Quiz 4 - Second Question](src/Quiz_4/Quiz4_Q2.png)<br><br>
+
 ---
