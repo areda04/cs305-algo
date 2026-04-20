@@ -168,6 +168,7 @@ W (Adjacency Matrix) =
 ## Note: The whole solution is in the java class `Quiz4_Q1.java`
 <br>2) Quiz 4 - Second Question
 - Note: we have a java class `Quiz4_Q2.java` for checking answer if you want
+   ![Quiz 4 - Second Question Rule](src/Quiz_4/Quiz4_Q2_Rule.png)
    ![Quiz 4 - Second Question](src/Quiz_4/Quiz4_Q2.png)<br><br>
 
 ---
