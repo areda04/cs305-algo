@@ -18,6 +18,7 @@ cs305-algo/
 │       └── Quiz4_Q1.java
 │       └── Quiz4_Q2.java
 │       └── Quiz4_Q2.png
+│       └── Quiz4_Q2_Rule.png
 │   └── Task_1/
 │       └── Task1.java
 │   └── Task_2/
@@ -166,9 +167,8 @@ W (Adjacency Matrix) =
 * Input: 6
 * Output: 720
 ## Note: The whole solution is in the java class `Quiz4_Q1.java`
-<br>2) Quiz 4 - Second Question
+2) Quiz 4 - Second Question
 - Note: we have a java class `Quiz4_Q2.java` for checking answer if you want
    ![Quiz 4 - Second Question Rule](src/Quiz_4/Quiz4_Q2_Rule.png)
    ![Quiz 4 - Second Question](src/Quiz_4/Quiz4_Q2.png)<br><br>
-
 ---
