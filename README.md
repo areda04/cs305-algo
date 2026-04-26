@@ -27,6 +27,8 @@ cs305-algo/
 │       └── Task3.java
 │   └── Task_4/
 │       └── Task4.java
+│   └── Task_5/
+│       └── Task5.java
 │   └── ...
 ...
 ```
@@ -171,4 +173,28 @@ W (Adjacency Matrix) =
 - Note: we have a java class `Quiz4_Q2.java` for checking answer if you want
    ![Quiz 4 - Second Question Rule](src/Quiz_4/Quiz4_Q2_Rule.png)
    ![Quiz 4 - Second Question](src/Quiz_4/Quiz4_Q2.png)<br><br>
+---
+
+# Task 5 (26 Apr)
+
+* Using Prim's algorithm for MST, make it take a startVertex (which may be v1, v2, or any other vertex) and an adjacency matrix. Then, return the MST and the total cost.
+## Example :
+* Input: `startVertex = 3` and
+```
+W (Adjacency Matrix) =
+            { 0 , 0 , 0 , 0 , 0 }
+            { 0 , 0 , 1 , 1 , 1 }
+            { 0 , 1 , 0 , 2 , 2 }
+            { 0 , 1 , 2 , 0 , 3 }
+            { 0 , 1 , 2 , 3 , 0 }
+```
+* Output:
+```
+MST starting with v3
+    v3 --> v1 = 1
+    v1 --> v2 = 1
+    v1 --> v4 = 1
+    Total Weight = 3
+```
+* Explanation: `totalCost` is 3 (which calculated from 1 + 1 + 1) where these weights came from MST edge weights.
 ---
